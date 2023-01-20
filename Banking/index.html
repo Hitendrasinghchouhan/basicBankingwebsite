@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Basic Banking Website</title>
+</head>
+
+<head>
+
+<body onload="loader()">
+
+    <!-- loader for splash screen -->
+    <div id="loading"></div>
+    </head>
+
+    <body>
+
+
+        <header class="header">
+            <nav class="navbar">
+                <div class="container">
+                    <h1 class="logo lg-heading text-light">SPARK BANK</h1>
+                    <ul class="navbar-items">
+                        <li class="nav-item"><a href="./index.html">Home</a></li>
+                        <li class="nav-item"><a href="#transaction">Transaction</a></li>
+                        <li class="nav-item"><a href="#customer">User</a></li>
+                        <li class="nav-item"><a href="#transfer-money">Transfer money</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="header-content">
+                <h1 class="lg-heading text-light main-heading">WELCOME TO SPARK BANK</h1>
+                <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore mollitia </p>
+                <a href="#explore-places" class="btn primary-btn text-red md-heading">register yourself</a>
+            </div>
+        </header>
+        <section class="showcase" id="about">
+            <div class="container">
+                <div class="row row1" id="transfer-money">
+                    <div class="img-box">
+                        <img src="img/showcase1.jpg" alt="Image">
+
+                    </div>
+                    <div class="text-box lg-heading text-black">
+                        <h2 class="lg-heading text-black">Transfer Money</h2>
+                        <p md-heading text-gray> Lorem ipsum dolor sit amet consectetur adipisicing elit. nim ad ut
+                            quam,
+                            molestiae accusantium similique earum non illum, ullam nihil ipsa quisquam? Lorem ipsum
+                            dolor, sit amet consectetur adipisicing elit. Id, eaque suscipit ipsa quos aliquam iure
+                            esse. Labore, animi! Mollitia, quae?</p>
+                        <a href="/customer.html" class="btn secondary-btn text-red">transfer money</a>
+                    </div>
+
+                </div>
+                <div class="row row2">
+                    <div class="img-box" id="customer">
+                        <img src="/img/header3.png" alt="">
+
+                    </div>
+                    <div class="text-box lg-heading text-black">
+                        <h2 class="lg-heading text-black">Our customer</h2>
+                        <p md-heading text-gray> Lorem ipsum dolor sit amet consectetur adipisicing elit. nim ad ut
+                            quam,
+                            molestiae accusantium similique earum non illum, ullam nihil ipsa quisquam? Lorem ipsum
+                            dolor sit amet, consectetur adipisicing elit. Possimus numquam quis suscipit pariatur minima
+                            ex et quae eos accusamus quam.</p>
+                        <a href="/customer.html" class="btn secondary-btn text-red">users</a>
+                    </div>
+
+                </div>
+                <div class="row row3">
+                    <div class="img-box" id="transaction">
+                        <img src="/img/header4.webp" alt="">
+
+                    </div>
+                    <div class="text-box lg-heading text-black">
+                        <h2 class="md-heading text-black">Transactions</h2>
+                        <p md-heading text-gray> Lorem ipsum dolor sit amet consectetur adipisicing elit. nim ad ut
+                            quam,
+                            molestiae accusantium similique earum non illum, ullam nihil ipsa quisquam? Lorem ipsum
+                            dolor sit amet consectetur adipisicing elit. Similique atque sit assumenda cupiditate
+                            sapiente rem officia asperiores quia? Voluptates, amet?</p>
+                        <a href="/customer.html" class="btn secondary-btn text-red">transaction history</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="social-media-link">
+                <i class=" fa-brands fa-instagram fa-2x"></i>
+                <i class=" fa-brands fa-facebook fa-2x"></i>
+                <i class=" fa-brands fa-twitter fa-2x"></i>
+            </div>
+            <p> spark bank &copy; 2023 , all rights reserved</p>
+            <p>deployed by hitendra singh chouhan</p>
+        </footer>
+        <!-- spalsh screen js -->
+
+        <script>
+            var preloader = document.getElementById("loading");
+            function loader() {
+                preloader.style.display = 'none';
+            }
+        </script>
+
+        <script src="assets/js/script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"></script>
+        <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"></script>
+
+        <!-- aos data  -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                duration: 700,
+            });
+        </script>
+
+    </body>
+
+</html>
